@@ -12,4 +12,7 @@
   <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
   <content>DataProcessor.ВКМ_ЗаполненияГрафика</content>
   <content>Constant.ВКМ_СтавкаНДФЛ</content>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
 </mdclass:Subsystem>
