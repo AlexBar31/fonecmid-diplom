@@ -9,4 +9,6 @@
   <content>Enum.ВКМ_КатегорияСотрудника</content>
   <content>Catalog.ВКМ_Сотрудники</content>
   <content>Catalog.ВКМ_ГрафикиРаботы</content>
+  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
+  <content>DataProcessor.ВКМ_ЗаполненияГрафика</content>
 </mdclass:Subsystem>
