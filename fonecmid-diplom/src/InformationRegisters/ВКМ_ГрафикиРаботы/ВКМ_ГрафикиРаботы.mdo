@@ -31,7 +31,6 @@
       <types>Number</types>
       <numberQualifiers>
         <precision>2</precision>
-        <scale>2</scale>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
