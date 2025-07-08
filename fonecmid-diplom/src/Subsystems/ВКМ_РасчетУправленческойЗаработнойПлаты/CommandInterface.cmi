@@ -5,16 +5,31 @@
       <group>NavigationPanelSeeAlso</group>
       <commands>InformationRegister.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
     </placementFragments>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Document.ВКМ_НачислениеЗаработнойПлаты.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_НачислениеФиксированныхПремий.StandardCommand.OpenList</commands>
+    </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
       <commands>Catalog.ВКМ_Сотрудники.StandardCommand.OpenList</commands>
       <commands>Catalog.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</commands>
+      <commands>CalculationRegister.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</commands>
+      <commands>CalculationRegister.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</commands>
+      <commands>CalculationRegister.ВКМ_Удержания.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
       <commands>InformationRegister.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Document.ВКМ_НачислениеЗаработнойПлаты.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_НачислениеФиксированныхПремий.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>
