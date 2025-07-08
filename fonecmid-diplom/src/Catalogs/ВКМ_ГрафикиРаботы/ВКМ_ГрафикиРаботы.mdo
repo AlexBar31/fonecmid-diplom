@@ -7,14 +7,14 @@
     <listType typeId="8d0d0805-717b-4db6-ad4a-34018dc8d6b7" valueTypeId="b60ca3eb-5f15-4830-8fc6-e823b2ee826a"/>
     <managerType typeId="fa5c29fa-307f-4f67-96fa-c1cb55c30f35" valueTypeId="b8443778-77e6-4b0c-be74-7b24408ab76a"/>
   </producedTypes>
-  <name>ВКМ_ГрафикРаботы</name>
+  <name>ВКМ_ГрафикиРаботы</name>
   <synonym>
     <key>ru</key>
-    <value>График работы</value>
+    <value>Графики работы</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.ВКМ_ГрафикРаботы.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.ВКМ_ГрафикРаботы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВКМ_ГрафикиРаботы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_ГрафикиРаботы.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -100,10 +100,6 @@
     <key>ru</key>
     <value>График работы</value>
   </objectPresentation>
-  <listPresentation>
-    <key>ru</key>
-    <value>График работы</value>
-  </listPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
