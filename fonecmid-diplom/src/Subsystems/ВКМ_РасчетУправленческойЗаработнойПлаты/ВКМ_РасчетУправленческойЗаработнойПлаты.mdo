@@ -15,4 +15,5 @@
   <content>Catalog.ВКМ_ГрафикиРаботы</content>
   <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
   <content>DataProcessor.ВКМ_ЗаполненияГрафика</content>
+  <content>Constant.ВКМ_СтавкаНДФЛ</content>
 </mdclass:Subsystem>
