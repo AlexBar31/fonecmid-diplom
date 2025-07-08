@@ -1215,6 +1215,8 @@
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
+  <catalogs>Catalog.ВКМ_Сотрудники</catalogs>
+  <catalogs>Catalog.ВКМ_ГрафикРаботы</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ОплатаОтПокупателя</documents>
   <documents>Document.ОплатаПоставщику</documents>
@@ -1266,6 +1268,7 @@
   <enums>Enum.ФорматыХраненияОдностраничныхФайлов</enums>
   <enums>Enum.ЦветаСвойств</enums>
   <enums>Enum.ЦветностиИзображения</enums>
+  <enums>Enum.ВКМ_КатегорияСотрудника</enums>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализПравДоступа</reports>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>

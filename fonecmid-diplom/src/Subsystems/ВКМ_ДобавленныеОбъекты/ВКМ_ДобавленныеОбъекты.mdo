@@ -6,4 +6,7 @@
     <value>Добавленные объекты</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
+  <content>Enum.ВКМ_КатегорияСотрудника</content>
+  <content>Catalog.ВКМ_Сотрудники</content>
+  <content>Catalog.ВКМ_ГрафикРаботы</content>
 </mdclass:Subsystem>
