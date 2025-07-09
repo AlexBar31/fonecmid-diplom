@@ -24,4 +24,6 @@
   <content>Document.ВКМ_НачислениеЗаработнойПлаты</content>
   <content>Document.ВКМ_НачислениеФиксированныхПремий</content>
   <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>AccumulationRegister.ВКМ_ВыполненыеСотрудникомРаботы</content>
+  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
 </mdclass:Subsystem>
