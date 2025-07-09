@@ -26,4 +26,6 @@
   <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
   <content>AccumulationRegister.ВКМ_ВыполненыеСотрудникомРаботы</content>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>CommandGroup.ВКМ_Справочники</content>
+  <content>CommandGroup.ВКМ_Документы</content>
 </mdclass:Subsystem>
