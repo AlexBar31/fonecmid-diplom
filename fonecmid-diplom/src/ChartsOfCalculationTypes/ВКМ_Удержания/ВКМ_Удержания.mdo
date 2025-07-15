@@ -58,5 +58,14 @@
       <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</base>
       <leading>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</leading>
     </items>
+    <items id="f394bea4-8e05-4f84-ba9b-dc031125b83f">
+      <name>НДФЛ_Премия</name>
+      <description>НДФЛ премия</description>
+      <code xsi:type="core:StringValue">
+        <value>3</value>
+      </code>
+      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.Премия</base>
+      <leading>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.Премия</leading>
+    </items>
   </predefined>
 </mdclass:ChartOfCalculationTypes>
