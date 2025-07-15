@@ -78,15 +78,15 @@
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
   <attributes uuid="5a5d46ec-c971-4eb6-b01c-8f975e9e53c8">
-    <name>Процент</name>
+    <name>ОплатаПоПроценту</name>
     <synonym>
       <key>ru</key>
-      <value>Процент</value>
+      <value>Оплата по проценту</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>5</precision>
+        <precision>15</precision>
         <scale>2</scale>
       </numberQualifiers>
     </type>
@@ -124,6 +124,22 @@
       <numberQualifiers>
         <precision>15</precision>
         <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0a4a83d4-8a58-44e9-ac71-7727f8216554">
+    <name>ДнейОтработаноБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дней отработано база</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>

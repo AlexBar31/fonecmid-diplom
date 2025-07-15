@@ -41,16 +41,21 @@
   <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</baseCalculationTypes>
   <predefined>
     <items id="367ba328-0649-443e-ac95-097385136332">
-      <name>НДФЛ</name>
-      <description>НДФЛ</description>
+      <name>НДФЛ_Оклад</name>
+      <description>НДФЛ оклад</description>
       <code xsi:type="core:StringValue">
         <value>1</value>
       </code>
       <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
-      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.Премия</base>
-      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</base>
       <leading>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</leading>
-      <leading>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.Премия</leading>
+    </items>
+    <items id="8e3411f7-ac65-4086-8266-51b541fceae3">
+      <name>НДФЛ_Отпуск</name>
+      <description>НДФЛ отпуск</description>
+      <code xsi:type="core:StringValue">
+        <value>2</value>
+      </code>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</base>
       <leading>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</leading>
     </items>
   </predefined>
