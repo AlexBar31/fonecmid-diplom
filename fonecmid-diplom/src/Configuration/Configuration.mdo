@@ -1050,6 +1050,7 @@
   <commandGroups>CommandGroup.ВКМ_Справочники</commandGroups>
   <commandGroups>CommandGroup.ВКМ_Документы</commandGroups>
   <commandGroups>CommandGroup.ВКМ_Регистры</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_ПланыВидовРасчета</commandGroups>
   <constants>Constant.АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
   <constants>Constant.ГлавныйУзел</constants>
