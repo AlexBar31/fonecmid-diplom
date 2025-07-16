@@ -24,4 +24,5 @@
   <content>AccumulationRegister.ВКМ_ВыполненыеСотрудникомРаботы</content>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
 </mdclass:Subsystem>

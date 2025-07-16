@@ -30,4 +30,5 @@
   <content>CommandGroup.ВКМ_Документы</content>
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
   <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
 </mdclass:Subsystem>
