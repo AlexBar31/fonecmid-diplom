@@ -28,4 +28,5 @@
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>CommandGroup.ВКМ_Справочники</content>
   <content>CommandGroup.ВКМ_Документы</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
 </mdclass:Subsystem>

@@ -23,4 +23,5 @@
   <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
   <content>AccumulationRegister.ВКМ_ВыполненыеСотрудникомРаботы</content>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
 </mdclass:Subsystem>
