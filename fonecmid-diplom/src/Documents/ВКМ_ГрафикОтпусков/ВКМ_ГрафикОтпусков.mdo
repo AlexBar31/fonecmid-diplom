@@ -27,6 +27,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВКМ_ГрафикОтпусков.Form.ФормаДокумента</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="957e9f9a-81f1-4a77-9666-b07e0e3f4fa3">
@@ -64,6 +65,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="e74371d4-445a-4d8a-a24e-d0d0d9866ddd">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="054e81a8-7388-47b0-9db6-f0a85749bd9e">
     <producedTypes>
       <objectType typeId="ee70e023-c372-48c4-8f9e-5aaae7847ebe" valueTypeId="0badb52c-520d-45a9-86ec-f92085e3c845"/>
