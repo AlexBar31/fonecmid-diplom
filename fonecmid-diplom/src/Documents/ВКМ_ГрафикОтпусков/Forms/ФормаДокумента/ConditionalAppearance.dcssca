@@ -20,15 +20,15 @@
 		</selection>
 		<filter>
 			<item xsi:type="FilterItemComparison">
-				<left xsi:type="dcscor:Field">Объект.ОтпускаСотрудников.КоличествоДней</left>
-				<comparisonType>Greater</comparisonType>
-				<right xsi:type="xs:decimal">28</right>
+				<left xsi:type="dcscor:Field">Объект.ОтпускаСотрудников.Флаг</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:boolean">true</right>
 			</item>
 		</filter>
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>ЦветФона</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:Color">web:Salmon</dcscor:value>
+				<dcscor:value xsi:type="v8ui:Color">web:Coral</dcscor:value>
 			</dcscor:item>
 		</appearance>
 	</item>
