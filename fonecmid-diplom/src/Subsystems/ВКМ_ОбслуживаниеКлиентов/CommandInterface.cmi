@@ -17,6 +17,7 @@
       <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
       <commands>Catalog.НоменклатурныеГруппы.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВКМ_Уведомления.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.ВКМ_Документы</group>
@@ -36,6 +37,7 @@
       <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
       <commands>Catalog.НоменклатурныеГруппы.StandardCommand.OpenList</commands>
+      <commands>Catalog.ВКМ_Уведомления.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.ВКМ_Документы</group>

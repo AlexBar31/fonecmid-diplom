@@ -22,6 +22,7 @@
     <key>ru</key>
     <value>Обслуживания клиентов</value>
   </listPresentation>
+  <dataHistory>Use</dataHistory>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
@@ -86,7 +87,6 @@
     <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="f39abb39-d985-4fa1-8e99-c310c422967e">
     <name>Договор</name>
@@ -112,7 +112,6 @@
     </choiceParameters>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="25911906-839e-4ed1-a3c7-afcabbd6109b">
     <name>ДатаПроведенияРабот</name>
@@ -183,7 +182,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="96be3b83-7d64-4487-8c2d-7267f9686c6c">
     <name>ФормаДокумента</name>
@@ -228,7 +226,6 @@
       <multiLine>true</multiLine>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="58dffac7-abc0-48a2-8c97-ea44b4f2809e">
@@ -246,7 +243,6 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="bbcab5a2-13e5-46ac-b82b-49cbf45fd802">
@@ -264,7 +260,6 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
