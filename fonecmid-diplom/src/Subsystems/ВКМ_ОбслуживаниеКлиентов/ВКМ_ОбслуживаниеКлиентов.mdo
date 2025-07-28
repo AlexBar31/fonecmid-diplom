@@ -18,4 +18,5 @@
   <content>Catalog.ВКМ_Сотрудники</content>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>Catalog.ВКМ_Уведомления</content>
 </mdclass:Subsystem>
