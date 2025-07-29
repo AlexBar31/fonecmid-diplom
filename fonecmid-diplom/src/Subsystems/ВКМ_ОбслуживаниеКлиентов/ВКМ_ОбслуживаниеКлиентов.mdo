@@ -25,4 +25,5 @@
   <content>Role.ВКМ_ОбслуживаниеКлиентовМенеджер</content>
   <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
   <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>Document.РеализацияТоваровУслуг</content>
 </mdclass:Subsystem>
