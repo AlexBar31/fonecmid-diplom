@@ -1131,6 +1131,8 @@
   <constants>Constant.ВКМ_СтавкаНДФЛ</constants>
   <constants>Constant.ВКМ_ТокенТелеграммБота</constants>
   <constants>Constant.ВКМ_ИдентификаторГруппыТелеграмм</constants>
+  <constants>Constant.ВКМ_НоменклатураАбонентскаяПлата</constants>
+  <constants>Constant.ВКМ_НоменклатураРаботыСпециалиста</constants>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.ВводЗначенийСпискомСФлажками</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>
