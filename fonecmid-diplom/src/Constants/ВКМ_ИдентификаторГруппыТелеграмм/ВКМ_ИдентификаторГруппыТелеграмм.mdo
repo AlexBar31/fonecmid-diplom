@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fcebfe5-2821-42c2-9010-de7884a7c9ec">
+  <producedTypes>
+    <managerType typeId="c47fb28f-dead-4ecc-8145-8e2c14cc7923" valueTypeId="bcc91053-cb2f-4c4c-a8d0-9674e75e2f39"/>
+    <valueManagerType typeId="b3655804-e096-4122-9c76-0db12bb8b7ba" valueTypeId="541ae966-e495-4481-943e-3e6dbf04aed9"/>
+    <valueKeyType typeId="5a92bc31-31d5-41ad-a86b-eee9dd103bb5" valueTypeId="14742e6a-e489-4b98-9986-661ac94094cb"/>
+  </producedTypes>
+  <name>ВКМ_ИдентификаторГруппыТелеграмм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификатор группы телеграмм</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <format>
+    <key>ru</key>
+    <value>ЧГ=0</value>
+  </format>
+  <editFormat>
+    <key>ru</key>
+    <value>ЧГ=0</value>
+  </editFormat>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

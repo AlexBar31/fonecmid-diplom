@@ -47,5 +47,10 @@
       <group>CommandGroup.ВКМ_Регистры</group>
       <commands>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.StandardCommand.OpenList</commands>
     </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>Constant.ВКМ_ИдентификаторГруппыТелеграмм.StandardCommand.Open</commands>
+      <commands>Constant.ВКМ_ТокенТелеграммБота.StandardCommand.Open</commands>
+    </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

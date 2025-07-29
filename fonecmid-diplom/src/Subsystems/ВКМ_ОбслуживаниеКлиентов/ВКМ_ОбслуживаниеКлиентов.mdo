@@ -19,4 +19,7 @@
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <content>Catalog.ВКМ_Уведомления</content>
+  <content>Constant.ВКМ_ТокенТелеграммБота</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыТелеграмм</content>
+  <content>ScheduledJob.ВКМ_ПередачаУведомленийВТелеграмм</content>
 </mdclass:Subsystem>
