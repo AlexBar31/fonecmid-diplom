@@ -22,4 +22,5 @@
   <content>Constant.ВКМ_ТокенТелеграммБота</content>
   <content>Constant.ВКМ_ИдентификаторГруппыТелеграмм</content>
   <content>ScheduledJob.ВКМ_ПередачаУведомленийВТелеграмм</content>
+  <content>Role.ВКМ_ОбслуживаниеКлиентовМенеджер</content>
 </mdclass:Subsystem>
