@@ -29,4 +29,5 @@
   <content>Role.ВКМ_ДобавлениеИзменентеДокументовРасчетаЗПОтпусков</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <content>Catalog.ВКМ_Уведомления</content>
+  <content>CommonModule.ВКМ_Телеграмм</content>
 </mdclass:Subsystem>
