@@ -34,4 +34,6 @@
   <content>Constant.ВКМ_ИдентификаторГруппыТелеграмм</content>
   <content>ScheduledJob.ВКМ_ПередачаУведомленийВТелеграмм</content>
   <content>Role.ВКМ_ОбслуживаниеКлиентовМенеджер</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
 </mdclass:Subsystem>
