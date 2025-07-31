@@ -123,8 +123,11 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
+        <dropListButton>false</dropListButton>
         <choiceButton>false</choiceButton>
+        <clearButton>false</clearButton>
         <openButton>true</openButton>
+        <createButton>false</createButton>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
@@ -165,8 +168,11 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
+        <dropListButton>false</dropListButton>
         <choiceButton>false</choiceButton>
+        <clearButton>false</clearButton>
         <openButton>true</openButton>
+        <createButton>false</createButton>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
