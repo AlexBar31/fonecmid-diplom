@@ -51,8 +51,11 @@
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelTools</group>
+      <commands>DataProcessor.ВКМ_МассовоеСозданиеАктов.StandardCommand.Open</commands>
       <commands>Constant.ВКМ_ИдентификаторГруппыТелеграмм.StandardCommand.Open</commands>
       <commands>Constant.ВКМ_ТокенТелеграммБота.StandardCommand.Open</commands>
+      <commands>Constant.ВКМ_НоменклатураАбонентскаяПлата.StandardCommand.Open</commands>
+      <commands>Constant.ВКМ_НоменклатураРаботыСпециалиста.StandardCommand.Open</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>
