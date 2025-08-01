@@ -27,4 +27,5 @@
   <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
   <content>Document.РеализацияТоваровУслуг</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Role.ВКМ_ОбслуживаниеКлиентовСозданиеАктов</content>
 </mdclass:Subsystem>

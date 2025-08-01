@@ -1,8 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsVisibility>
+    <visibilityFragments>
+      <subsystem>Subsystem.Деньги</subsystem>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовМенеджер</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСозданиеАктов</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСпециалист</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ДобавлениеИзменентеДокументовРасчетаЗПОтпусков</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <subsystem>Subsystem.ВКМ_РасчетУправленческойЗаработнойПлаты</subsystem>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСпециалист</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовМенеджер</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСозданиеАктов</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <subsystem>Subsystem.ВКМ_ОбслуживаниеКлиентов</subsystem>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ВКМ_ДобавлениеИзменентеДокументовРасчетаЗПОтпусков</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <subsystem>Subsystem.ПокупкиИПродажи</subsystem>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ВКМ_ДобавлениеИзменентеДокументовРасчетаЗПОтпусков</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовМенеджер</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСозданиеАктов</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСпециалист</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+  </subsystemsVisibility>
   <subsystemsOrder>
-    <subsystems>Subsystem.ПокупкиИПродажи</subsystems>
     <subsystems>Subsystem.Деньги</subsystems>
+    <subsystems>Subsystem.ПокупкиИПродажи</subsystems>
     <subsystems>Subsystem.ВКМ_ОбслуживаниеКлиентов</subsystems>
     <subsystems>Subsystem.ВКМ_РасчетУправленческойЗаработнойПлаты</subsystems>
     <subsystems>Subsystem.Администрирование</subsystems>
