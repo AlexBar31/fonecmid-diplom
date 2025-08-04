@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c984a5af-3e92-46c9-bc9a-9f50ce4ead90">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e94ced9b-1907-4697-9a17-eb3c975af38a">
   <producedTypes>
-    <selectionType typeId="38097c76-78e7-4546-a7df-4a74432c1428" valueTypeId="93606058-730e-4256-9bb4-f4b2e17d256d"/>
-    <listType typeId="f5199242-0386-4d1e-a57e-34eeb709feaf" valueTypeId="f798fc12-7c98-47e3-ae2e-69030d85eacd"/>
-    <managerType typeId="c2787dd9-e0e5-4ef0-8ffe-d2eb357731f4" valueTypeId="2b5c9c3d-90ac-41d4-b27b-4321b49ba7a1"/>
-    <recordSetType typeId="177cc50a-77f7-4d36-932a-df4088214b75" valueTypeId="7196f2a0-4d4a-414c-bbe1-48e3462f2c77"/>
-    <recordKeyType typeId="c95a9ded-56c8-47dd-b907-baf9e110e5ba" valueTypeId="38cec9b1-4a0c-4c51-829c-bf85d17295b2"/>
-    <recordType typeId="ae127d0c-a3fb-447a-a09c-437b795e11c9" valueTypeId="3b739bb8-9577-41f5-a879-802aeb860344"/>
-    <recordManagerType typeId="17b76ff2-5981-469f-871b-1d8bb2769b2b" valueTypeId="843b7242-fd6a-4ec2-90c2-4c60f276c0d4"/>
+    <selectionType typeId="92c063fe-f74b-4354-a632-e7ddafbbc5a6" valueTypeId="4ab433d2-d96a-4240-9558-5a00a5d28157"/>
+    <listType typeId="fc85fe11-e579-4ff0-b775-2bc968490700" valueTypeId="b1b0d662-62d5-4aa3-80bc-94e22ab973e5"/>
+    <managerType typeId="e35aec7d-1659-45c6-b67d-5ad4750e1b45" valueTypeId="81c2de8d-44e1-4936-9a94-6a582ce0454c"/>
+    <recordSetType typeId="6c655301-0702-4781-b9bc-48006b306673" valueTypeId="a3e60f66-bb7a-410e-821e-d33252b6ca13"/>
+    <recordKeyType typeId="4d984ed7-7f38-4db9-ac6d-c16def4387e3" valueTypeId="3bcf08fb-a270-4e96-9c07-08fa7d7094a6"/>
+    <recordType typeId="9bb16d5a-9187-41a8-aeeb-26bbd1d0e1f0" valueTypeId="4727c5b2-9d0a-439f-bc71-cc5d8a1455b2"/>
+    <recordManagerType typeId="bcaf9621-abf2-4ca5-af50-3db3d085865e" valueTypeId="d7eea9ef-5270-480e-9cb3-73318561be29"/>
   </producedTypes>
   <name>ВКМ_Отпуска</name>
   <synonym>
@@ -19,19 +19,16 @@
   <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
   <writeMode>RecorderSubordinate</writeMode>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <enableTotalsSliceFirst>true</enableTotalsSliceFirst>
-  <enableTotalsSliceLast>true</enableTotalsSliceLast>
-  <resources uuid="4445fc79-d12f-4d47-9f79-a671cc2a81ec">
+  <resources uuid="6f0a826d-2a8b-4a01-a07e-3b09b7e80001">
     <name>ДнейПлан</name>
     <synonym>
       <key>ru</key>
-      <value>Плановое количество дней</value>
+      <value>Дней план</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
         <precision>3</precision>
-        <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -40,17 +37,16 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="5ecb1f05-decd-45b1-a118-ce9f3210f45d">
+  <resources uuid="6f508662-15a8-4ca4-b3fb-f105b0f3277e">
     <name>ДнейФакт</name>
     <synonym>
       <key>ru</key>
-      <value>Фактическое количество дней</value>
+      <value>Дней факт</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
         <precision>3</precision>
-        <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -59,7 +55,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <dimensions uuid="115ccb08-d45e-4f04-9350-16d3b0aa12f3">
+  <dimensions uuid="9861f492-0aa7-4be8-9208-a1d686ab2c56">
     <name>Год</name>
     <synonym>
       <key>ru</key>
@@ -78,7 +74,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="542fec92-c47c-4c23-be4d-72c5ba839024">
+  <dimensions uuid="c53f1920-8068-4316-97ca-f34a14088382">
     <name>Сотрудник</name>
     <synonym>
       <key>ru</key>
@@ -94,7 +90,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="a2c2abba-fb21-4837-b9e6-cdbfbecebe53">
+  <dimensions uuid="d8161340-aa3a-42f5-8837-6e18cafc2ac6">
     <name>Месяц</name>
     <synonym>
       <key>ru</key>
@@ -104,6 +100,7 @@
       <types>Number</types>
       <numberQualifiers>
         <precision>2</precision>
+        <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>

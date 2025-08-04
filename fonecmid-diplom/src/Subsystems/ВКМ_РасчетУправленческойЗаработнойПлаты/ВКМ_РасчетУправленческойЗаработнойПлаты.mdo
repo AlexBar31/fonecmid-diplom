@@ -32,5 +32,6 @@
   <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
   <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
   <content>InformationRegister.ВКМ_Отпуска</content>
 </mdclass:Subsystem>
