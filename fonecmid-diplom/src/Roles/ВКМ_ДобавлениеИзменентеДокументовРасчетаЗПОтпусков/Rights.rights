@@ -473,6 +473,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Report.ВКМ_РасчетыССотрудниками</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>AccumulationRegister.ВКМ_ВыполненыеСотрудникомРаботы.Resource.СуммаКОплате</name>
 		<right>
 			<name>Edit</name>
