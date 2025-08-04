@@ -38,4 +38,5 @@
   <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>Role.ВКМ_ОбслуживаниеКлиентовСозданиеАктов</content>
+  <content>InformationRegister.ВКМ_Отпуска</content>
 </mdclass:Subsystem>
