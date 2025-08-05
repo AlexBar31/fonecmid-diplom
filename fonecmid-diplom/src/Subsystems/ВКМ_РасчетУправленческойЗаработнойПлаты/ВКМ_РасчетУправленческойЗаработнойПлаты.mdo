@@ -35,4 +35,5 @@
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
   <content>InformationRegister.ВКМ_Отпуска</content>
   <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
 </mdclass:Subsystem>

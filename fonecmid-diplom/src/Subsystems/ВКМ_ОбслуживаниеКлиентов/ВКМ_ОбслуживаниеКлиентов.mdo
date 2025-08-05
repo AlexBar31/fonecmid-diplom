@@ -28,4 +28,5 @@
   <content>Document.РеализацияТоваровУслуг</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>Role.ВКМ_ОбслуживаниеКлиентовСозданиеАктов</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
 </mdclass:Subsystem>
