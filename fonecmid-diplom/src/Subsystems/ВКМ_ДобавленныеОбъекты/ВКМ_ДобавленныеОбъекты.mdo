@@ -44,4 +44,5 @@
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
   <content>AccumulationRegister.ВКМ_ВыставленныеАкты</content>
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Document.ВКМ_УстановкаОкладов</content>
 </mdclass:Subsystem>

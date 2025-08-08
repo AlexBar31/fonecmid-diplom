@@ -24,6 +24,21 @@
         </for>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.ВКМ_УстановкаОкладов.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовМенеджер</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСозданиеАктов</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСпециалист</role>
+        </for>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
@@ -38,6 +53,7 @@
       <commands>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_ГрафикОтпусков.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_УстановкаОкладов.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.ВКМ_Регистры</group>
@@ -72,6 +88,7 @@
       <commands>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_ГрафикОтпусков.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_УстановкаОкладов.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.ВКМ_Регистры</group>
