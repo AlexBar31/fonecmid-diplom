@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6f5d04a-46d1-432b-a0f4-0eeda48e7282">
+  <name>ВКМ_Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные настройки подсистем</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Настройки для подсистем расчета  ЗП и/или  Обслуживания</value>
+  </toolTip>
+</mdclass:CommonCommand>

@@ -31,4 +31,5 @@
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
   <content>AccumulationRegister.ВКМ_ВыставленныеАкты</content>
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>CommonCommand.ВКМ_Настройки</content>
 </mdclass:Subsystem>

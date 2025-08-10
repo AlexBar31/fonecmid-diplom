@@ -42,7 +42,6 @@
     <visibilityFragments>
       <command>Constant.ВКМ_СтавкаНДФЛ.StandardCommand.Open</command>
       <visible>
-        <common>true</common>
         <for>
           <role>Role.ВКМ_ОбслуживаниеКлиентовМенеджер</role>
         </for>
@@ -69,6 +68,35 @@
         </for>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.ВКМ_Отпуска.StandardCommand.OpenList</command>
+      <visible>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовМенеджер</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСозданиеАктов</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСпециалист</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonCommand.ВКМ_Настройки</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовМенеджер</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСпециалист</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСозданиеАктов</role>
+        </for>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
@@ -91,6 +119,7 @@
       <commands>AccumulationRegister.ВКМ_ВыполненыеСотрудникомРаботы.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ВКМ_Отпуска.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.ВКМ_ПланыВидовРасчета</group>
@@ -125,6 +154,7 @@
       <commands>InformationRegister.ВКМ_УсловияОплатыСотрудников.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ВКМ_ВыполненыеСотрудникомРаботы.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ВКМ_Отпуска.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
@@ -132,6 +162,12 @@
       <commands>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</commands>
       <commands>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</commands>
       <commands>ChartOfCalculationTypes.ВКМ_Удержания.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>DataProcessor.ВКМ_ЗаполненияГрафика.StandardCommand.Open</commands>
+      <commands>CommonCommand.ВКМ_Настройки</commands>
+      <commands>Constant.ВКМ_СтавкаНДФЛ.StandardCommand.Open</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

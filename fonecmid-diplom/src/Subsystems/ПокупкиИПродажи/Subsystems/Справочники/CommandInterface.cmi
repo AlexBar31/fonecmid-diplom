@@ -3,11 +3,91 @@
   <commandsVisibility>
     <visibilityFragments>
       <command>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</command>
-      <visible/>
+      <visible>
+        <for>
+          <role>Role.ВКМ_ДобавлениеИзменентеДокументовРасчетаЗПОтпусков</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовМенеджер</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСозданиеАктов</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСпециалист</role>
+        </for>
+      </visible>
     </visibilityFragments>
     <visibilityFragments>
       <command>Catalog.НоменклатурныеГруппы.StandardCommand.OpenList</command>
-      <visible/>
+      <visible>
+        <for>
+          <role>Role.ВКМ_ДобавлениеИзменентеДокументовРасчетаЗПОтпусков</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовМенеджер</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСозданиеАктов</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСпециалист</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.Контрагенты.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ВКМ_ДобавлениеИзменентеДокументовРасчетаЗПОтпусков</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовМенеджер</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСозданиеАктов</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСпециалист</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.Номенклатура.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ВКМ_ДобавлениеИзменентеДокументовРасчетаЗПОтпусков</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовМенеджер</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСозданиеАктов</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСпециалист</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.Организации.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ВКМ_ДобавлениеИзменентеДокументовРасчетаЗПОтпусков</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовМенеджер</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСозданиеАктов</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСпециалист</role>
+        </for>
+      </visible>
     </visibilityFragments>
   </commandsVisibility>
 </cmi:CommandInterface>

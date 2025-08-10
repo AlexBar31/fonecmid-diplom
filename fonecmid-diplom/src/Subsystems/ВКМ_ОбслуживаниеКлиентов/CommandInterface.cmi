@@ -10,7 +10,6 @@
     <visibilityFragments>
       <command>Constant.ВКМ_НоменклатураРаботыСпециалиста.StandardCommand.Open</command>
       <visible>
-        <common>true</common>
         <for>
           <role>Role.ВКМ_ДобавлениеИзменентеДокументовРасчетаЗПОтпусков</role>
         </for>
@@ -25,7 +24,6 @@
     <visibilityFragments>
       <command>Constant.ВКМ_НоменклатураАбонентскаяПлата.StandardCommand.Open</command>
       <visible>
-        <common>true</common>
         <for>
           <role>Role.ВКМ_ДобавлениеИзменентеДокументовРасчетаЗПОтпусков</role>
         </for>
@@ -40,7 +38,6 @@
     <visibilityFragments>
       <command>Constant.ВКМ_ТокенТелеграммБота.StandardCommand.Open</command>
       <visible>
-        <common>true</common>
         <for>
           <role>Role.ВКМ_ДобавлениеИзменентеДокументовРасчетаЗПОтпусков</role>
         </for>
@@ -58,7 +55,6 @@
     <visibilityFragments>
       <command>Constant.ВКМ_ИдентификаторГруппыТелеграмм.StandardCommand.Open</command>
       <visible>
-        <common>true</common>
         <for>
           <role>Role.ВКМ_ДобавлениеИзменентеДокументовРасчетаЗПОтпусков</role>
         </for>
@@ -85,6 +81,21 @@
         </for>
         <for>
           <role>Role.ВКМ_ОбслуживаниеКлиентовСпециалист</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonCommand.ВКМ_Настройки</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовМенеджер</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСпециалист</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ДобавлениеИзменентеДокументовРасчетаЗПОтпусков</role>
         </for>
       </visible>
     </visibilityFragments>

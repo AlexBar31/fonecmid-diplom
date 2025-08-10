@@ -253,6 +253,7 @@
     <placementFragments>
       <group>NavigationPanelOrdinary</group>
       <commands>DataProcessor.ПанельАдминистрированияБСП.Command.Обслуживание</commands>
+      <commands>CommonCommand.ВКМ_Настройки</commands>
     </placementFragments>
     <placementFragments>
       <group>NavigationPanelSeeAlso</group>
@@ -288,6 +289,7 @@
       <commands>DataProcessor.ПанельАдминистрированияБСП.Command.СинхронизацияДанных</commands>
       <commands>DataProcessor.ПанельАдминистрированияБСП.Command.НастройкиРаботыСФайлами</commands>
       <commands>DataProcessor.ПанельАдминистрированияБСП.Command.ПечатныеФормыОтчетыИОбработки</commands>
+      <commands>CommonCommand.ВКМ_Настройки</commands>
       <commands>Catalog.ВидыКонтактнойИнформации.StandardCommand.OpenList</commands>
       <commands>DataProcessor.РегламентныеИФоновыеЗадания.Command.РегламентныеИФоновыеЗадания</commands>
       <commands>Catalog.ТомаХраненияФайлов.StandardCommand.OpenList</commands>
@@ -299,6 +301,7 @@
       <commands>InformationRegister.НастройкиОчисткиФайлов.StandardCommand.OpenList</commands>
       <commands>CommonCommand.ВремяТекущегоСеанса</commands>
       <commands>Catalog.ПрофилиКлючевыхОпераций.StandardCommand.OpenList</commands>
+      <commands>Catalog.НаборыДополнительныхРеквизитовИСведений.Command.Метки</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>

@@ -472,6 +472,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.ВКМ_Настройки</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Report.ВКМ_РасчетыССотрудниками</name>
 		<right>
 			<name>Use</name>
@@ -855,6 +862,13 @@
 		</right>
 		<right>
 			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ВКМ_Настройки</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
