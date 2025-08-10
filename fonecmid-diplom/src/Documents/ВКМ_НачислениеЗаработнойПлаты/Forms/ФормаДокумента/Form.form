@@ -335,6 +335,10 @@
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
+        <handlers>
+          <event>OnStartEdit</event>
+          <name>ЗаработнаяПлатаПриНачалеРедактирования</name>
+        </handlers>
         <searchStringAddition>
           <name>ЗаработнаяПлатаСтрокаПоиска</name>
           <id>18</id>
