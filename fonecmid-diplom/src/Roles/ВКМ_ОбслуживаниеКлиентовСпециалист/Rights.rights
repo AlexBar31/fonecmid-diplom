@@ -321,10 +321,6 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
 	</object>
 	<object>
 		<name>Catalog.КонтрагентыПрисоединенныеФайлы.Attribute.ДатаСоздания</name>
@@ -649,10 +645,6 @@
 		<name>Constant.ВКМ_ТокенТелеграммБота</name>
 		<right>
 			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

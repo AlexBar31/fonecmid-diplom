@@ -39,6 +39,36 @@
         </for>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>Constant.ВКМ_СтавкаНДФЛ.StandardCommand.Open</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовМенеджер</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСозданиеАктов</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСпециалист</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.ВКМ_ЗаполненияГрафика.StandardCommand.Open</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовМенеджер</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСозданиеАктов</role>
+        </for>
+        <for>
+          <role>Role.ВКМ_ОбслуживаниеКлиентовСпециалист</role>
+        </for>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>

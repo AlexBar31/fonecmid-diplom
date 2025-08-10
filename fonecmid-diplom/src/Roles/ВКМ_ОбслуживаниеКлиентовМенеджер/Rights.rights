@@ -169,10 +169,6 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
 	</object>
 	<object>
 		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Комментарий</name>
@@ -280,10 +276,6 @@
 		<name>Constant.ВКМ_ТокенТелеграммБота</name>
 		<right>
 			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
